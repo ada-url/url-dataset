@@ -1,5 +1,5 @@
 {
-  "name": "benchmark-generator",
+  "name": "url-dataset",
   "version": "1.0.0",
   "description": "URL crawler for the purpose of URL benchmarking",
   "type": "module",
@@ -23,7 +23,7 @@
     "top-sites": "^1.1.148"
   },
   "repository": {
-    "url": "git+https://github.com/ada-url/benchmark-generator.git",
+    "url": "git+https://github.com/ada-url/url-dataset.git",
     "type": "git"
   }
 }
