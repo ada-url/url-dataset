@@ -1,0 +1,29 @@
+{
+  "name": "benchmark-generator",
+  "version": "1.0.0",
+  "description": "URL crawler for the purpose of URL benchmarking",
+  "type": "module",
+  "main": "lib/index.js",
+  "scripts": {
+    "start": "node --max-old-space-size=8192 --no-warnings lib/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "url",
+    "benchmark",
+    "generator"
+  ],
+  "author": "Yagiz Nizipli <yagiz@nizipli.com>",
+  "license": "MIT",
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "cli-progress": "^3.12.0",
+    "fastq": "^1.15.0",
+    "node-fetch": "^3.3.0",
+    "top-sites": "^1.1.148"
+  },
+  "repository": {
+    "url": "git+https://github.com/ada-url/benchmark-generator.git",
+    "type": "git"
+  }
+}
